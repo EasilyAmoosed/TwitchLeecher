@@ -769,7 +769,7 @@ namespace TwitchLeecher.Services.Services
             if (string.IsNullOrWhiteSpace(thumbnail))
             {
                 thumbnail = PROCESSING_THUMBNAIL;
-                live = true;
+                live = false;
             }
             else
             {
